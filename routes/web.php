@@ -26,10 +26,11 @@ Route::get('/dashboard', function () {
 
 //Acceso a la página principal
 
-Route::get('/', "App\Http\Controllers\FormacionController@index")->name("formacion");
-Route::get('/puertas_abiertas', function () {
-    return view("puertas_abiertas");
-})->name("puertas_abiertas");
+Route::get('manolo',function(){
+   echo "<h1>Hola</h1>";
+});
+Route::view('/',"formacion")->name("formacion");
+Route::view('/puertas_abiertas',"puertas_abiertas")->name("puertas_abiertas");
 
 
 Route::resource("empresas", App\Http\Controllers\EmpresaController::class)->middleware(['auth']);

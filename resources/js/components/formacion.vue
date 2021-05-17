@@ -22,8 +22,6 @@
         title="Presentación jornadas"
         poster='images/logo_calidad.png' id=video>
         <source :src='src_video' type="video/mp4"/>
-
-
         <track id="subtitulo" src='videos/presentacion.vtt' kind="subtitles" srclang="es"
                label="Español" default>
         Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>

@@ -1,6 +1,6 @@
 import {createApp} from 'vue';
 import formacion from './components/formacion.vue'
-import visitaVirtual from './components/visitaVirtual.vue'
+import visita from './components/visita.vue'
 
 
 
@@ -9,7 +9,7 @@ import visitaVirtual from './components/visitaVirtual.vue'
 createApp({
     components: {
         formacion,
-        visitaVirtual,
+        visita,
 
     },
 

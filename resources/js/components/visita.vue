@@ -15,7 +15,7 @@
 </template>
 <script>
 export default {
-  name: 'jornadas',
+  name: 'visitaVirtual',
   props:[
     'src_video',
   ],

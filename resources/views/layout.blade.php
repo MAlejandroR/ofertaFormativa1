@@ -34,7 +34,6 @@
       max-h-full w-60v overflow-hidden place-self-right ">
             Conoce Nuestro Centro
         </h1>
-
     </div>
     <!-- Parte de cabecera, fijo en lugar de componente-->
     @yield("contenido")
@@ -62,7 +61,6 @@
     </div>
     {{--        <slot></slot>--}}
     {{--        </div>--}}
-
 </div>
 <script src="{{asset("js/app.js")}}"></script>
 </body>
